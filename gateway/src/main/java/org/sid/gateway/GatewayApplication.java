@@ -25,7 +25,7 @@ public class GatewayApplication {
                 .build();
     }*/
 
-    
+
     //Dynamic Configuration
     @Bean
     DiscoveryClientRouteDefinitionLocator definitionLocator(ReactiveDiscoveryClient rdc, DiscoveryLocatorProperties properties){

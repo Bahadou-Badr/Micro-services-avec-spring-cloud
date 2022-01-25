@@ -1,6 +1,6 @@
-package org.sid.customerserivce.repository;
+package org.sid.customerservice.repository;
 
-import org.sid.customerserivce.entities.Customer;
+import org.sid.customerservice.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

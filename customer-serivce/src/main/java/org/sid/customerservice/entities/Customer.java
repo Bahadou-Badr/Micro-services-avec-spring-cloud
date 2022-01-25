@@ -1,4 +1,4 @@
-package org.sid.inventoryserivce.entities;
+package org.sid.customerservice.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,10 +12,9 @@ import javax.persistence.Id;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor @ToString
-public class Product {
+public class Customer {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private double price;
-    private double quantity;
+    private String email;
 }
