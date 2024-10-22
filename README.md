@@ -1,16 +1,19 @@
-## À propos de ce projet 🏁
+## About this project 🏁
 
-#### Une application basée sur trois services métiers :
+#### An application based on three business services :
 
-- Service des Clients (Customer-service)
-- Service d'invetaire (Inventory-service)
-- Service Facturation (Billing-service)
-- Service d'Authentification en utilisant Spring Security et JWT :
-  - Ce service permet de gérer : Les uttilisateurs - Les roles(USER,ADMIN,CUSTOMER_MANAGER,PRODUCT_MANAGER,BILLS_MANAGER) - Un utilisateur peut avoir plusieur roles et chaque role peut etre affecte a plusieur utilisateurs
+- Customer Service
+- Inventory Service
+- Billing Service
+- Authentication Service using Spring Security and JWT :
+  This service manages :
+  - Authentication
+  - Users
+  - Roles (USER, ADMIN, CUSTOMER_MANAGER, PRODUCT_MANAGER, BILLS_MANAGER) A user can have multiple roles, and each role can be assigned to multiple users.
 
-#### L'orchestration des services se fait via les services techniques de Spring Cloud :
+#### Service orchestration is handled via Spring Cloud technical services :
 
-- Spring Cloud Gateway Service comme service proxy
-- Registry Eureka Service comme annuaire d'enregistrement et de découverte des services de l'architecture
+- Spring Cloud Gateway Service as a proxy service
+- Eureka Registry Service as a directory for service registration and discovery in the architecture
 - Hystrix Circuit Breaker
-- Hystrix DashBoard
+- Hystrix Dashboard
